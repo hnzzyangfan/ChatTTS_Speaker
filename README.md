@@ -38,6 +38,9 @@
 1. 点选一个音色 seed_id 单元格。
 2. 点击最下方的 **Download .pt File** 按钮，即可下载对应的 .pt 文件。
 
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
 ## 评估代码
 
 稳定性评估代码详见：https://github.com/2noise/ChatTTS/pull/317
